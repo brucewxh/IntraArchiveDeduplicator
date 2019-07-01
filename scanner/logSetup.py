@@ -148,7 +148,7 @@ def initLogging(logLevel=logging.INFO):
 		ch = ColourHandler()
 		mainLogger.addHandler(ch)
 
-	print("Setting up loggers....", end=' ')
+	print("Setting up loggers....")
 
 
 	logName	= "Error - %s.txt" % (time.strftime("%Y-%m-%d %H;%M;%S", time.gmtime()))
